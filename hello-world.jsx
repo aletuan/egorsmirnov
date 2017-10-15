@@ -7,4 +7,5 @@ class HelloWorld extends React.Component {
 }
 
 // export component to outside world
+// what is this
 export default HelloWorld;
