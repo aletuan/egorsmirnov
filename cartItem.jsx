@@ -4,6 +4,7 @@ import { IntervalEnhance } from "./intervalEnhance";
 class CartItem extends React.Component {
 
   static propTypes = {
+      //this section does not work
       //title: React.PropTypes.string.isRequired,
       //price: React.PropTypes.number.isRequired,
       //initialQty: React.PropTypes.number
@@ -88,7 +89,7 @@ class CartItem extends React.Component {
           <p className="large-12 column">
               <strong>Time elapsed for interval: </strong>
               {this.props.seconds} ms
-          </p>            
+          </p>
 
       </article>;
   }
